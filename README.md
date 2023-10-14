@@ -1,5 +1,6 @@
 # Live demo
-https://exercises-app-wheat.vercel.app/
+[exercise_app](https://exercise-lar3242.netlify.app/)
+
 
 # React + Vite
 
