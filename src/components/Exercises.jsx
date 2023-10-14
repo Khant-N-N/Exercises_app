@@ -33,6 +33,7 @@ const Exercises = () => {
               onClick={() => {
                 setSelectedPart(part);
               }}
+              data-aos="zoom-in"
               className={`${
                 selectedPart === part &&
                 "border-[var(--primary-color)] border-[3px]"

@@ -23,7 +23,7 @@ const Navbar = () => {
           onKeyUp={handleKeyUp}
           type="text"
           placeholder="Search"
-          className="px-2 py-1 rounded-md bg-[var(--primary-color)] text-white outline-none"
+          className="px-2 py-1 rounded-md bg-[var(--primary-color)] text-white outline-none md:w-[20rem] w-[13rem]"
         />
         {isType ? (
           <RxCross2
