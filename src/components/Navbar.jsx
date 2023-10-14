@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex w-full justify-between px-5 py-3 sticky top-0 z-[99] bg-[var(--secondary-opacity)]">
+    <nav className="flex w-full justify-between px-5 py-3 fixed top-0 z-[99] bg-[var(--secondary-opacity)]">
       <div>logo</div>
       <div className="flex relative">
         <input

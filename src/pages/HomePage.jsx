@@ -5,7 +5,7 @@ import ContactUs from "../components/ContactUs";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="mt-[6rem]">
       <Hero />
       <Exercises />
       <ContactUs />

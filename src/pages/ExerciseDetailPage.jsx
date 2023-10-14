@@ -14,7 +14,7 @@ const ExerciseDetailPage = () => {
   }, [data, id]);
 
   return (
-    <div>
+    <div className="mt-[6rem]">
       {loading ? (
         <div className="flex justify-center h-[400px] items-center">
           <CiDumbbell className="animate-spin text-[1.7rem]" />

@@ -32,7 +32,7 @@ const SearchPage = () => {
     setItemOffset(newOffset);
   };
   return (
-    <div className="w-full flex flex-col items-center my-5">
+    <div className="w-full flex flex-col items-center mb-5 mt-[6rem]">
       <h3 className="text-left px-3 w-full">
         Searched for:{" "}
         <span className="text-[var(--primary-color)]">

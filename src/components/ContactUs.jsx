@@ -29,7 +29,10 @@ const ContactUs = () => {
               <IoIosPaperPlane className="mt-1 mr-2" /> Send Message
             </button>
           </div>
-          <div className="bg-[var(--secondary-opacity)] w-[70%] rounded py-3 px-4 text-center text-[1rem]">
+          <div
+            data-aos="zoom-in"
+            className="bg-[var(--secondary-opacity)] w-[70%] rounded py-3 px-4 text-center text-[1rem]"
+          >
             <HiOutlineMail className="text-[2rem] inline" />
             <p className="font-bold">Email Us</p>
             <p>
@@ -39,7 +42,10 @@ const ContactUs = () => {
               Interactively grow ideas for cross-platform models.
             </p>
           </div>
-          <div className="bg-[var(--secondary-opacity)] w-[70%] rounded py-3 px-4 text-center text-[1rem]">
+          <div
+            data-aos="zoom-in"
+            className="bg-[var(--secondary-opacity)] w-[70%] rounded py-3 px-4 text-center text-[1rem]"
+          >
             <BiPhoneCall className="text-[2rem] inline" />
             <p className="font-bold">Call Us</p>
             <p>
